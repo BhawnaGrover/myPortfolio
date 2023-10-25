@@ -1,0 +1,25 @@
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+
+.carousel div{
+    max-width: 1200px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.carousel img {
+    border-radius: 20px;
+}
+
+.legend{
+    background-color: blueviolet;
+}
